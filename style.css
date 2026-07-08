@@ -2,6 +2,9 @@ body {
 
     background:White;
 
+    text-align: center;
+
+    font-size: large;
 }
 
 .General-Chat-Ai {
@@ -268,4 +271,110 @@ body {
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:25px;
+}
+
+.Write-Gen-Ai {
+
+  background:rgba(37, 160, 121, 0.444);
+
+  border:1px solid rgba(255,255,255,0.08);
+
+  border-radius:24px;
+
+  padding:24px;
+
+  transition:0.3s;
+}
+
+.Wrie-Gen-Ai h3{
+  margin:16px 0 10px;
+}
+
+
+.Write-Gen-Ai{
+  position:relative;
+}
+
+.Write-Gen-Ai button{
+
+  width:100%;
+
+  margin-top:12px;
+
+  padding:14px;
+
+  border:none;
+
+  border-radius:999px;
+
+  background:
+  linear-gradient(
+  90deg,
+  #1ab226,
+  #1500ff
+  );
+
+  color:black;
+
+  font-weight:700;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.Write-Gen{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.category{
+    width:90%;
+    margin:50px auto;
+}
+
+.category-cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:25px;
+}
+
+.category-card{
+    background:#b61414;
+    border:1px solid #174195;
+    border-radius:20px;
+    padding:25px;
+    cursor:pointer;
+    transition:0.3s ease;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.category-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(103,232,249,0.25);
+}
+
+.category-card h1{
+    font-size:22px;
+    margin-bottom:12px;
+    color:#111827;
+}
+
+.category-card h2{
+    display:inline-block;
+    padding:6px 12px;
+    background:linear-gradient(90deg,#67E8F9,#A78BFA);
+    border-radius:999px;
+    font-size:14px;
+    color:#000;
+    margin-bottom:15px;
+}
+
+.category-card p{
+    color:#6b7280;
+    font-size:15px;
+    margin-top:10px;
 }
