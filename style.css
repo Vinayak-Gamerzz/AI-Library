@@ -1,0 +1,100 @@
+body {
+
+    background:White;
+
+}
+
+.General-Chat-Ai {
+
+  background:rgba(255,255,255,0.05);
+
+  border:1px solid rgba(255,255,255,0.08);
+
+  border-radius:24px;
+
+  padding:24px;
+
+  transition:0.3s;
+}
+
+.General-Chat-Ai:hover{
+  transform:translateY(-6px);
+
+  box-shadow:
+  0 0 30px rgba(103,232,249,0.12);
+}
+
+.General-Chat-Ai h3{
+  margin:16px 0 10px;
+}
+
+
+.General-Chat-Ai{
+  position:relative;
+}
+
+.badge{
+  position:absolute;
+
+  top:14px;
+  right:14px;
+
+  background:#67f96c;
+
+  color:black;
+
+  font-size:11px;
+
+  padding:6px 10px;
+
+  border-radius:999px;
+
+  font-weight:700;
+}
+
+.General-Chat-Ai button{
+
+  width:100%;
+
+  margin-top:12px;
+
+  padding:14px;
+
+  border:none;
+
+  border-radius:999px;
+
+  background:
+  linear-gradient(
+  90deg,
+  #f96767,
+  #1500ff
+  );
+
+  color:black;
+
+  font-weight:700;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.General-Chat-Ai button:hover{
+  transform:translateY(-3px);
+}
+
+.General-Chat{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.free,
+.paid{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
